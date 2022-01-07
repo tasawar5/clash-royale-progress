@@ -1,0 +1,5 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+webdriverPath = './chromedriver'
+driver = webdriver.Chrome(webdriverPath)
